@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commandes",
+  "info": {
+    "name": "commandes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "totalPrice": {
+      "type": "decimal"
+    },
+    "totalProducts": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "cart": {
+      "collection": "shoes"
+    }
+  }
+}

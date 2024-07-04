@@ -1,0 +1,90 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shoes",
+  "info": {
+    "name": "shoes",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "price": {
+      "type": "decimal"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "stock38": {
+      "type": "integer"
+    },
+    "stock39": {
+      "type": "integer"
+    },
+    "stock40": {
+      "type": "integer"
+    },
+    "stock41": {
+      "type": "integer"
+    },
+    "stock42": {
+      "type": "integer"
+    },
+    "stock43": {
+      "type": "integer"
+    },
+    "stock44": {
+      "type": "integer"
+    },
+    "stock37": {
+      "type": "integer"
+    },
+    "brand": {
+      "type": "enumeration",
+      "enum": [
+        "AirJordan",
+        "AirForce",
+        "AirMax",
+        "Jordan",
+        "Mercurial"
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Lifestyle",
+        "Football",
+        "Basketball",
+        "Running"
+      ]
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Men",
+        "Women",
+        "Boys",
+        "Girls"
+      ]
+    },
+    "featured": {
+      "type": "boolean"
+    }
+  }
+}

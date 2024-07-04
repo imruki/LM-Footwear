@@ -1,0 +1,19 @@
+img{
+    width:100%;
+}
+.Categories button{
+    display: block;
+    border-color: transparent;
+}
+.btn-link{
+    color:black;
+}
+.card-header{
+    background-color: transparent;
+}
+h2{
+    text-align: center;
+}
+.cee{
+    height:45vh!important;
+}

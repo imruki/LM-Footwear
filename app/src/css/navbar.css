@@ -1,0 +1,27 @@
+.color{
+    background-color: #f7f7f7 ;
+    color: black;
+    text-align: center;
+}
+a{
+    font-size: 80%;
+    color: black!important;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a:hover{      
+    color: black!important;  
+}
+.Covid p{
+    padding: 0.5%;
+    font-size: 75%; 
+}
+.row{
+    margin-right: 0%;
+}
+.textnav{
+    font-size: 20px;
+}
+a{
+    display: block;
+}
