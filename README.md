@@ -57,7 +57,7 @@ First, clone the repository from GitHub:
 
 1. Navigate to the strapi directory:
     ```bash
-    cd backend
+    cd strapi
     ```
 
 2. Install the necessary dependencies:
